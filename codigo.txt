@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	var nombre string
+	var edad int
+	fmt.Println("Ingrese su nombre: ")
+	fmt.Scanln(&nombre)
+	fmt.Println("Ingrese su edad: ")
+	fmt.Scanln(&edad)
+	a := 10
+	b := 5
+	suma := a+b
+	resta := a-b
+	fmt.Println("Hola, %s. Tienes %d años.\n", nombre, edad)
+	fmt.Println("La suma de %d y %d es %d.\n", a, b, suma)
+	fmt.Println("La resta de %d y %d es %d.\n", a, b, resta)
+	switch numero {
+		case 1:
+			fmt.Println("El numero es uno.")
+		case 2:
+			fmt.Println("El numero es dos.")
+		case 3:
+			fmt.Println("El numero es tres.")
+		default:
+			fmt.Println("El numero no es ni uno, ni dos, ni tres.")
+	}
+}
